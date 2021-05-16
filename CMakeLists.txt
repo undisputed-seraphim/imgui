@@ -9,7 +9,7 @@ find_package(SDL2 2.0)
 find_package(Vulkan 1.1)
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR})
-include_directories(${CMAKE_CURRENT_SOURCE_DIR}/examples)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/backends)
 
 add_library(imgui STATIC
 	"imgui.cpp"
